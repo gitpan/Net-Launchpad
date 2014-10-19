@@ -1,0 +1,123 @@
+# NAME
+
+Net::Launchpad
+
+# VERSION
+
+version 1.0.3
+
+# SYNOPSIS
+
+OAuth 1.0a authorization and client for Launchpad.net
+
+# NAME
+
+Net::Launchpad - Launchpad.net OAuth 1.0
+
+# ATTRIBUTES
+
+[Net::Launchpad](https://metacpan.org/pod/Net::Launchpad) implements the following attributes:
+
+## **staging**
+
+Boolean to interact with staging server or production.
+
+## **ua**
+
+A [Mojo::UserAgent](https://metacpan.org/pod/Mojo::UserAgent).
+
+## **json**
+
+A [Mojo::JSON](https://metacpan.org/pod/Mojo::JSON).
+
+## **consumer\_key**
+
+Holds the string that identifies your application.
+
+    $lp->consumer_key('my-app-name');
+
+## **callback\_uri**
+
+Callback url to redirect use back to once authenticated.
+
+## **nonce**
+
+Nonce
+
+## **params**
+
+OAuth 1.0a parameters used in request, authenticate, and access
+
+# METHODS
+
+## **api\_host**
+
+Hostname used for authentication
+
+## **access\_token\_path**
+
+OAuth Access token url
+
+## **authorize\_token\_path**
+
+OAuth Authorize token url
+
+## **request\_token\_path**
+
+OAuth Request token url
+
+## **request\_token**
+
+Perform the request-token request
+
+## **authenticate\_token**
+
+Perform the authentication request
+
+## **access\_token**
+
+Perform the access token request
+
+# AUTHOR
+
+Adam Stokes, `<adamjs at cpan.org>`
+
+# BUGS
+
+Report bugs to https://github.com/battlemidget/Net-Launchpad/issues.
+
+# DEVELOPMENT
+
+## Repository
+
+    http://github.com/battlemidget/Net-Launchpad
+
+# SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc Net::Launchpad
+
+# SEE ALSO
+
+- [https://launchpad.net/launchpadlib](https://launchpad.net/launchpadlib), "Python implementation"
+
+# COPYRIGHT
+
+Copyright 2013-2014 Adam Stokes
+
+# LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+# AUTHOR
+
+Adam Stokes <adamjs@cpan.org>
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2014 by Adam Stokes.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
