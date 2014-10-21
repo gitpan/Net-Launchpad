@@ -13,12 +13,13 @@ do { my $x = {
                     },
        'runtime' => {
                       'requires' => {
+                                      'Data::Dumper::Concise' => '0',
                                       'Function::Parameters' => '0',
-                                      'Mojo::Base' => '0',
-                                      'Mojo::JSON' => '0',
                                       'Mojo::Parameters' => '0',
                                       'Mojo::URL' => '0',
-                                      'Mojo::UserAgent' => '0'
+                                      'Mojo::UserAgent' => '0',
+                                      'Moose' => '0',
+                                      'namespace::autoclean' => '0'
                                     }
                     },
        'test' => {
