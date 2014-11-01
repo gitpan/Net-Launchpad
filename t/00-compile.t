@@ -4,12 +4,50 @@ use warnings;
 
 # this test was generated with Dist::Zilla::Plugin::Test::Compile 2.046
 
-use Test::More  tests => 1 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
+use Test::More  tests => 39 + ($ENV{AUTHOR_TESTING} ? 1 : 0);
 
 
 
 my @module_files = (
-    'Net/Launchpad.pm'
+    'Net/Launchpad.pm',
+    'Net/Launchpad/Client.pm',
+    'Net/Launchpad/Model.pm',
+    'Net/Launchpad/Model/Archive.pm',
+    'Net/Launchpad/Model/Base.pm',
+    'Net/Launchpad/Model/Branch.pm',
+    'Net/Launchpad/Model/Bug.pm',
+    'Net/Launchpad/Model/BugTracker.pm',
+    'Net/Launchpad/Model/Builder.pm',
+    'Net/Launchpad/Model/CVE.pm',
+    'Net/Launchpad/Model/Country.pm',
+    'Net/Launchpad/Model/Distribution.pm',
+    'Net/Launchpad/Model/Language.pm',
+    'Net/Launchpad/Model/Person.pm',
+    'Net/Launchpad/Model/Project.pm',
+    'Net/Launchpad/Model/Query/Branch.pm',
+    'Net/Launchpad/Model/Query/Builder.pm',
+    'Net/Launchpad/Model/Query/Country.pm',
+    'Net/Launchpad/Model/Query/Person.pm',
+    'Net/Launchpad/Model/Query/Project.pm',
+    'Net/Launchpad/Query.pm',
+    'Net/Launchpad/Role/Archive.pm',
+    'Net/Launchpad/Role/Branch.pm',
+    'Net/Launchpad/Role/Bug.pm',
+    'Net/Launchpad/Role/BugTracker.pm',
+    'Net/Launchpad/Role/Builder.pm',
+    'Net/Launchpad/Role/CVE.pm',
+    'Net/Launchpad/Role/Common.pm',
+    'Net/Launchpad/Role/Country.pm',
+    'Net/Launchpad/Role/Distribution.pm',
+    'Net/Launchpad/Role/Language.pm',
+    'Net/Launchpad/Role/Person.pm',
+    'Net/Launchpad/Role/Project.pm',
+    'Net/Launchpad/Role/Query.pm',
+    'Net/Launchpad/Role/Query/Branch.pm',
+    'Net/Launchpad/Role/Query/Builder.pm',
+    'Net/Launchpad/Role/Query/Country.pm',
+    'Net/Launchpad/Role/Query/Person.pm',
+    'Net/Launchpad/Role/Query/Project.pm'
 );
 
 

@@ -2,7 +2,7 @@ package Net::Launchpad;
 BEGIN {
   $Net::Launchpad::AUTHORITY = 'cpan:ADAMJS';
 }
-$Net::Launchpad::VERSION = '1.0.5';
+$Net::Launchpad::VERSION = '2.101';
 # ABSTRACT: Launchpad.net Authentication
 
 use Moose;
@@ -121,7 +121,7 @@ Net::Launchpad - Launchpad.net Authentication
 
 =head1 VERSION
 
-version 1.0.5
+version 2.101
 
 =head1 ATTRIBUTES
 
